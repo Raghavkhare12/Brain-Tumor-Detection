@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+venv/
+env/
+tumor_env/
+tumor_env_new/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Uploads & generated files
+static/uploads/*
+static/heatmaps/*
+
+# Dataset (VERY IMPORTANT)
+brain_tumor_dataset/
+
+# Logs
+*.log
